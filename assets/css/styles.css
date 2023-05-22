@@ -993,6 +993,10 @@ img {
     padding: 0;
   }
 
+  .home__social-icon {
+    font-size: var(--big-font-size);
+  }
+
   .home,
   .about,
   .skills,
