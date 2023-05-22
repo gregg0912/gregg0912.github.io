@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Gregg</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-info-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-award nav__icon"></i> Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-image nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Dark Mode -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/gregg-marionn-icay-7a6701155/" target="_blank" class="home__social-icon">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+              <a href="https://gitlab.com/greggicay" target="_blank" class="home__social-icon">
+                <i class="uil uil-gitlab"></i>
+              </a>
+              <a href="https://github.com/gregg0912" target="_blank" class="home__social-icon">
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                  <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                  <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/profile.png"/>
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+                <h1 class="home__title">Hi! I'm Gregg</h1>
+                <h3 class="home__subtitle">Software Developer</h3>
+                <p class="home__description">A methodical and responsible team-player who collaborates effectively and maintains high standards.</p>
+                <a href="#contact" class="button button--flex">
+                    Contact Me <i class="uil uil-message button__icon"></i>
+                </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About</h2>
+        <span class="section__subtitle">Get to know me</span>
+
+        <div class="about__container container grid">
+          <img src="assets/img/computer-typing.gif" alt="" class="about__img">
+
+          <div class="about__data">
+            <p class="about__description">A software engineer with experience in the telecommunication industry and web development. With high skills in writing code in PHP, and JavaScript through maintenance tasks and test creation.</p>
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">04+</span>
+                <span class="about__info-name">Years <br /> experience</span>
+              </div>
+              <div>
+                <span class="about__info-title">10+</span>
+                <span class="about__info-name">Completed <br /> project</span>
+              </div>
+              <div>
+                <span class="about__info-title">4</span>
+                <span class="about__info-name">Companies <br /> worked</span>
+              </div>
+            </div>
+
+            <div class="about__butons">
+              <a download="" href="assets/cv/gregg-icay-cv.docx" class="button button--flex">
+                Download Resume<i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">What I know</span>
+
+        <div class="skills__container container grid">
+          <!--==================== SKILL 1 ====================-->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="uil uil-file-plus-alt skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Copywriter</h1>
+                <span class="skills__subtitle">Less than a year</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">Google Suite</h3>
+                  <span class="skills__number">100%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__100"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">ChatGPT</h3>
+                  <span class="skills__number">100%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__100"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">CopyAI</h3>
+                  <span class="skills__number">100%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__100"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">Wordpress</h3>
+                  <span class="skills__number">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__80"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SKILL 2 ====================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">Web Developer</h1>
+                <span class="skills__subtitle">More than 1 year</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">HTML5</h3>
+                  <span class="skills__number">95%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__95"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">CSS3</h3>
+                  <span class="skills__number">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__70"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">JavaScript</h3>
+                  <span class="skills__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__85"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">JQuery</h3>
+                  <span class="skills__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__85"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">PHP</h3>
+                  <span class="skills__number">95%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__95"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">Laravel</h3>
+                  <span class="skills__number">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__85"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SKILL 3 ====================-->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="uil uil-keyboard-alt skills__icon"></i>
+
+              <div>
+                <h1 class="skills__title">R&D Engineer</h1>
+                <span class="skills__subtitle">More than 2 years</span>
+              </div>
+
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">C++</h3>
+                  <span class="skills__number">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__70"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">Python</h3>
+                  <span class="skills__number">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__80"></span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__title">
+                  <h3 class="skills__name">K3</h3>
+                  <span class="skills__number">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage skills__70"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <ul>
+        <li class="ruby" data-rating="80"><i>Ruby</i></li>
+        <li class="html" data-rating="95"><i>HTML5</i></li>
+        <li class="java" data-rating="85"><i>Java</i></li>
+        <li class="js" data-rating="85"><i>JavaScript</i></li>
+        <li class="python" data-rating="50"><i>Python</i></li>
+        <li class="assm" data-rating="80"><i>Assembly</i></li>
+        <li class="css" data-rating="70"><i>CSS3</i></li>
+        <li class="php" data-rating="95"><i>PHP</i></li>
+        <li class="c" data-rating="80"><i>C</i></li>
+        <li class="mysql" data-rating="95"><i>MySQL</i></li>
+        <li class="perl" data-rating="65"><i>Perl</i></li>
+      </ul>
+      <div class="card" id="lvl-projection">
+        <p id="language">Select a language</p>
+        <p id="rating">0</p>
+        <div id="bar">
+          <div id="inner-bar"></div>
+        </div>
+      </div> -->
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My personal journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active" data-target="#education">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">BS in Computer Science</h3>
+                  <span class="qualification__subtitle">UPV Miagao Campus</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2014-2018
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">High School Graduate</h3>
+                  <span class="qualification__subtitle">RSHS for Region VI</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2010-2014
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Elementary Graduate</h3>
+                  <span class="qualification__subtitle">NVC Elementary School</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018-2020
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Developer</h3>
+                  <span class="qualification__subtitle">DTE Endurance</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023-present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Junior Copywriter</h3>
+                  <span class="qualification__subtitle">Olly Olly</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022-2023
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Developer</h3>
+                  <span class="qualification__subtitle">Eversun</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021-2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">R&D Engineer</h3>
+                  <span class="qualification__subtitle">Nokia</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2018-2020
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">What I've worked on</span>
+
+        <div class="portfolio__container container">
+          <div>
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid">
+              <div class="portfolio__box">
+                <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">PAGOD</h3>
+                  <p class="portfolio__description">Web-based software application that will serve as a pre-enlistment guide for students of the University of the Philippines.</p>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid">
+              <div class="portfolio__box">
+                <img src="assets/img/portfolio2.png" alt="" class="portfolio__img">
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Org_Y</h3>
+                  <p class="portfolio__description">Web-based software application made for the various organizations of University of the Philippines Visayas.</p>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid">
+              <div class="portfolio__box">
+                <img src="assets/img/portfolio3.png" alt="" class="portfolio__img">
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">GitHelp</h3>
+                  <p class="portfolio__description">Web platform made to be a place for registered teachers to put their lessons online and for students with accounts to read them.</p>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid">
+              <div class="portfolio__box">
+                <img src="assets/img/portfolio4.png" alt="" class="portfolio__img">
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">DorME</h3>
+                  <p class="portfolio__description">Web-based software application for students, incoming or returning, to view housing establishments which are not part of the lodging services that UPV provides.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Request a project</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <!--==================== CONTACT INFO 1 ====================-->
+            <div class="contact__information">
+              <i class="uil uil-phone-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Phone</h3>
+                <span class="contact__subtitle">(+63)908 199 0388</span>
+              </div>
+            </div>
+
+            <!--==================== CONTACT INFO 2 ====================-->
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle">gregg.icay@dteendurance.om</span>
+              </div>
+            </div>
+
+            <!--==================== CONTACT INFO 3 ====================-->
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle">Villa Atong-Atang, C. Laserna, Kalibo, Aklan</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <form action="" class="contact__form grid">
+              <div class="contact__inputs grid">
+                <div class="contact__content">
+                  <label for="" class="contact__label">Name</label>
+                  <input type="text" class="contact__input">
+                </div>
+                <div class="contact__content">
+                  <label for="" class="contact__label">Email</label>
+                  <input type="email" class="contact__input">
+                </div>
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Project</label>
+                <input type="text" class="contact__input">
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+              </div>
+              <div>
+                <a href="#" class="button button--flex">
+                  Send Message
+                  <i class="uil uil-message button__icon"></i>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Gregg</h1>
+            <span class="footer__subtitle">Software Developer</span>
+          </div>
+
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/greggmarionn.icay/" target="_blank" class="footer__social">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/noGREGGrets" target="_blank" class="footer__social">
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+            <a href="https://discordapp.com/users/9183" target="_blank" class="footer__social">
+              <i class="uil uil-discord"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Gregg Marionn Icay</p>
+      </div>
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src=""></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
